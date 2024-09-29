@@ -15,6 +15,8 @@ do curso versionamento de código [Digital Innovation One](https://www.dio.me).
  | Aulas | Resumos |
  | ----  | -----   |
  | Gravando Alterações no Repositório local | [Resumos]() |
+ | ----  | -----   |
+ | ----  | -----   |
 
  ``` 
  git init 
