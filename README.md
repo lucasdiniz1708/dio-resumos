@@ -1,26 +1,52 @@
+<h1>
+    <a href="https://www.dio.me/">
+     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
+    <span> Versionamento de Código com Git e GitHub</span>
+</h1>
 
-# Dio Resumos | GIT e GitHub
+## Primeiros Passos com Git e GitHub
 
-Repositório para armazenar resumos sobre Git e GitHub,
-do curso versionamento de código [Digital Innovation One](https://www.dio.me).
+### Criando e Clonando Repositórios
+Existem duas formas de obter um repositório Git na sua máquina:
+1. Transformando um diretório local que não está sob controle de versão, num repositório Git;
+2. Clonando um repositório Git existente.
 
-## 📚 Documentação 
+#### Criando um Repositório Local
+Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou clique no atalho em “Git Bash Here”:
+1. Inicialize um repositório Git no diretório escolhido:
+    ```bash
+    $ git init
+    ```
+2. Conecte o repositório local com o repositório remoto:
+    ```bash
+    $ git remote add origin https://github.com/username/nome-do-repositorio.git
+    ```
+##
 
-- [Documentação Git]()
-- [Documentação GitHub]()
+### Desfazendo Alterações no Repositório Local
 
-## 💻 Resumo das Aulas 
+#### Como alterar a mensagem do último commit
+```bash
+$ git commit --amend
+```
+Alterando a mensagem sem abrir o editor:  
+```bash
+$ git commit --amend –m"nova mensagem"
+```
 
+#### Como desfazer um commit
+```bash
+$ git reset
+```
+```bash
+$ git reset --soft
+```
+```bash
+$ git reset --mixed
+```
+```bash
+$ git reset --hard
+```
 
- | Aulas | Resumos |
- | ----  | -----   |
- | Gravando Alterações no Repositório local | [Resumos]() |
- | ----  | -----   |
- | ----  | -----   |
-
- ``` 
- git init 
- ````
-
- ## 🔍 Referências
-- [Digital Innovation One]().
+##
+<div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
